@@ -1,0 +1,140 @@
+@import "mytheme.scss";
+@import "addons.scss";
+
+// This file prefixes all rules with the theme name to avoid causing conflicts with other themes.
+// The actual styles should be defined in mytheme.scss
+
+.mytheme {
+  @include addons;
+  @include mytheme;
+
+.backgroundimage {
+      background: url("images/battle.jpg") !important;
+}
+
+.backgroundimage2 {
+      background: url("images/battle2.jpg") !important;
+}
+
+.backgroundimage3 {
+      background: url("images/battle3.jpg") !important;
+}
+
+.backgroundimage4 {
+      background: url("images/battle4.jpg") !important;
+}
+
+.backgroundimage5 {
+      background: url("images/back.jpg") !important;
+      border-radius: 10px;
+}
+
+.menuStyleMessage {
+	-moz-box-shadow: 3px 4px 0px 0px #8a2a21;
+	-webkit-box-shadow: 3px 4px 0px 0px #8a2a21;
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#bd8884',GradientType=0);
+	background-color:#150301;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	padding:0px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+
+.menuStyle {
+	-moz-box-shadow: 3px 4px 0px 0px #8a2a21;
+	-webkit-box-shadow: 3px 4px 0px 0px #8a2a21;
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #bd8884));
+	background:-moz-linear-gradient(top, #c62d1f 5%, #bd8884 100%);
+	background:-webkit-linear-gradient(top, #c62d1f 5%, #bd8884 100%);
+	background:-o-linear-gradient(top, #c62d1f 5%, #bd8884 100%);
+	background:-ms-linear-gradient(top, #c62d1f 5%, #bd8884 100%);
+	background:linear-gradient(to bottom, #c62d1f 5%, #bd8884 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#bd8884',GradientType=0);
+	background-color:#c62d1f;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	padding:0px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.menuStyle:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bd8884), color-stop(1, #c62d1f));
+	background:-moz-linear-gradient(top, #bd8884 5%, #c62d1f 100%);
+	background:-webkit-linear-gradient(top, #bd8884 5%, #c62d1f 100%);
+	background:-o-linear-gradient(top, #bd8884 5%, #c62d1f 100%);
+	background:-ms-linear-gradient(top, #bd8884 5%, #c62d1f 100%);
+	background:linear-gradient(to bottom, #bd8884 5%, #c62d1f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bd8884', endColorstr='#c62d1f',GradientType=0);
+	background-color:#bd8884;
+}
+.menuStyle:active {
+	position:relative;
+	top:1px;
+}
+
+.menuStyleOn {
+	-moz-box-shadow: 3px 4px 0px 0px #8a2a21;
+	-webkit-box-shadow: 3px 4px 0px 0px #8a2a21;
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3e3ebd), color-stop(1, #bd8884));
+	background:-moz-linear-gradient(top, #3e3ebd 5%, #bd8884 100%);
+	background:-webkit-linear-gradient(top, #3e3ebd 5%, #bd8884 100%);
+	background:-o-linear-gradient(top, #3e3ebd 5%, #bd8884 100%);
+	background:-ms-linear-gradient(top, #3e3ebd 5%, #bd8884 100%);
+	background:linear-gradient(to bottom, #3e3ebd 5%, #bd8884 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3e3ebd', endColorstr='#bd8884',GradientType=0);
+	background-color:#3e3ebd;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	padding:0px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.menuStyleOn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bd8884), color-stop(1, #3e3ebd));
+	background:-moz-linear-gradient(top, #bd8884 5%, #3e3ebd 100%);
+	background:-webkit-linear-gradient(top, #bd8884 5%, #3e3ebd 100%);
+	background:-o-linear-gradient(top, #bd8884 5%, #3e3ebd 100%);
+	background:-ms-linear-gradient(top, #bd8884 5%, #3e3ebd 100%);
+	background:linear-gradient(to bottom, #bd8884 5%, #3e3ebd 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bd8884', endColorstr='#3e3ebd',GradientType=0);
+	background-color:#bd8884;
+}
+.menuStyleOn:active {
+	position:relative;
+	top:1px;
+}
+
+.customIcon {
+  icon-align: left;
+  icon: url("images/explode2.jpg") !important;
+}
+
+
+
+}
+

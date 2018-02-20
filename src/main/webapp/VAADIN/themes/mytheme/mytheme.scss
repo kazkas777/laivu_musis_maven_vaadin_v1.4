@@ -1,0 +1,112 @@
+// If you edit this file you need to compile the theme. See README.md for details.
+
+// Global variable overrides. Must be declared before importing Valo.
+
+// Defines the plaintext font size, weight and family. Font size affects general component sizing.
+//$v-font-size: 16px;
+//$v-font-weight: 300;
+//$v-font-family: "Open Sans", sans-serif;
+
+// Defines the border used by all components.
+//$v-border: 1px solid (v-shade 0.7);
+//$v-border-radius: 4px;
+
+// Affects the color of some component elements, e.g Button, Panel title, etc
+//$v-background-color: hsl(210, 0%, 98%);
+// Affects the color of content areas, e.g  Panel and Window content, TextField input etc
+//$v-app-background-color: $v-background-color;
+
+// Affects the visual appearance of all components
+//$v-gradient: v-linear 8%;
+//$v-bevel-depth: 30%;
+//$v-shadow-opacity: 5%;
+
+// Defines colors for indicating status (focus, success, failure)
+//$v-focus-color: valo-focus-color(); // Calculates a suitable color automatically
+//$v-friendly-color: #2c9720;
+//$v-error-indicator-color: #ed473b;
+
+// For more information, see: https://vaadin.com/book/-/page/themes.valo.html
+// Example variants can be copy/pasted from https://vaadin.com/wiki/-/wiki/Main/Valo+Examples
+
+@import "../valo/valo.scss";
+
+@mixin mytheme {
+  @include valo;
+
+.v-button-yellow {
+        background: #bfa834;
+        border: none;
+        color: white;
+}
+.v-button-darkRed {
+        background: url(images/fire2.gif) no-repeat top center;
+        background-color: #c51616;
+        border: none;
+        color: white;
+}
+.v-button-blue {
+        background: #2417e8;
+        border: none;
+        color: white;
+}
+
+.v-button-red {
+        background: url(images/fire2.gif) no-repeat top center;
+        background-color: #f51313;
+        border: none;
+        color: white;
+}
+
+
+.v-button-lightGreen {
+        background: #74ca6e;
+        border: none;
+        color: white;
+}
+.v-button-darkGray {
+        background: #595a59;
+        border: none;
+        color: white;
+}
+.v-button-gray {
+        background: #9ca09c;
+        border: none;
+        color: white;
+}
+.v-button-lightGray {
+        background: #c7cec7;
+        border: none;
+        color: white;
+}
+
+.v-button-transparent {
+  background: transparent;
+  border: none;
+  color: none;
+}
+
+
+.v-label-redLabel{
+    font-weight: 200;
+    font-family: monospace;
+    font-size: 30px;
+    color: #fd1515;
+}
+
+.v-label-whiteLabel{
+    font-weight: 200;
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+}
+
+.v-label-whiteLabel2{
+    font-weight: 200;
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+}
+
+
+}
